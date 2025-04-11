@@ -3,4 +3,76 @@
     <head>
         <title>Task 2</title>
     </head>
+
+    <body>
+        <h1>Conference Registration Form</h1>
+        <form>
+            First name: <input type="text" name="firstname"><br><br>
+            
+            <!--label form-->
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email">
+
+            <br><br>
+            Age: <input type="text" name="age">
+
+            <br><br>
+            Gender : 
+            <br><br><input type="radio" name="sex" value="male">Male
+            <br><input type="radio" name="sex" value="female">Female<br>
+            
+            <br>
+            Country of Residence:
+            <select name="country">
+                <option value="Select your country">Select your country</option>
+                <option value="argentina">Argentina</option>
+                <option value="brazil">Brazil</option>
+                <option value="Canada">Canada</option>
+                <option value="denmark ">Denmark</option>
+                <option value="egypt">Egypt</option>
+                <option value="finland">Findland</option>
+                <option value="germany">Germany</option>
+                <option value="hungary">Hungary</option>
+                <option value="India">India</option>
+                <option value="japan">Japan</option>
+                <option value="kenya">Kenya</option>
+                <option value="laos">Laos</option>
+                <option value="mexico">Mexico</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="oman">Oman</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Russia">Russia</option>
+                <option value="Sweden">Sweden</option>
+                <option value="Turkey">Turkey</option>
+            </select>
+
+            <br><br>
+            Areas of interest: <br><br>
+            <input type="checkbox" name="interest" value="software">Software Development
+            <br>
+            <input type="checkbox" name="interest" value="Data science">Data Science
+            <br><input type="checkbox" name="interest" value="Cyber Security">Cyber Security
+            <br><input type="checkbox" name="interest" value="Artificial Intelligence">Artificial Intelligence
+
+            <br><br>
+            Experience Level:
+            <br>
+            <input type="radio" name="Experience" value="beginner">Beginner
+            <br>
+            <input type="radio" name="Experience" value="intermediate">intermediate
+            <br>
+            <input type="radio" name="Experience" value="Advanced">Advanced
+            
+            <br><br>
+            Comments or Questions:
+            <textarea id="QnA" name="QnA" rows="4" cols="50">
+                Any comments or question?
+            </textarea>
+
+            
+        </form>
+    </body>
 </html>
